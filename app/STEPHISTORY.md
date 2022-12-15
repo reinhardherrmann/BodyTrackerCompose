@@ -35,7 +35,10 @@ Step 04 master
 -----------------------------------------------------------------------
 Step 03 master
 -----------------------------------------------------------------------
-Step 02 master
+Step 02 Dependencies added
+    Room, Dagger Hilt, Compose
+
+    Configuration tested: runs on Emulator
 -----------------------------------------------------------------------
 Step 01 master
     empty version without changes

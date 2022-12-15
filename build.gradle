@@ -1,6 +1,16 @@
 buildscript {
     ext {
         compose_version = '1.1.1'
+        coroutines_version = "1.5.1"
+        dagger_version = "2.44"
+        room_version = "2.4.3"
+    }
+    dependencies {
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$dagger_version"
+    }
+    repositories {
+        google()
+        mavenCentral()
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
